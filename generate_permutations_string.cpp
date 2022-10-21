@@ -4,12 +4,11 @@ using namespace std;
 void permute(string str,int l,int r){
      
      if(l==r){
-        if(str.find("ab")==string::npos){
            
              cout<<str<<" ";
         return;
  
-        }
+        
       
      }
 
